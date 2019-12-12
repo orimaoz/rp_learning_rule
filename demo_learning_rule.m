@@ -9,7 +9,13 @@
 % For training RP models with classical maximum-entropy methods, please refer to the toolbox code.
 %
 % STEP 1: load data
-%
+
+% the sample data provided here are actual recording from groups of 50 cells from V1/V2 or PFC, as was used in the
+% original paper. The data provided here was binned at 20ms and taken without context or particular order from various 
+% parts of the experiment. It is provided here mostly so that we have "real" data from groups of neurons to fit, 
+% but please don't try to over-analyze it. If what you care about is the data itself, refer to the paper where links 
+% to the "proper" versions of the neural recordings can be obtained.
+
 % data = load('data/prefrontal_50.mat');
 data = load('data/visual_50.mat');
 
